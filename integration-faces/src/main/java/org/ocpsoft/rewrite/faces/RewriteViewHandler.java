@@ -229,4 +229,9 @@ public class RewriteViewHandler extends ViewHandler
    {
       parent.initView(context);
    }
+
+	@Override
+	public String getWebsocketURL(FacesContext context, String channel) {
+		return parent.getWebsocketURL(context, channel);
+	}
 }

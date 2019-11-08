@@ -34,6 +34,7 @@
       <dependency>
          <groupId>org.jboss.spec.javax.faces</groupId>
          <artifactId>jboss-jsf-api_${jsf.spec}_spec</artifactId>
+         <version>3.0.0.Final</version>
          <scope>provided</scope>
       </dependency>
       <dependency>
